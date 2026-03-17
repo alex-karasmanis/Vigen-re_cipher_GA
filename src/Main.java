@@ -27,6 +27,6 @@ public class Main {
                 cfg.mutationSubSize, cfg.useUniform, cfg.popSize, chromLen, cfg.k, text);
         ga.run();
         ga.printBestChrom();
-        //ga.printDycripted();
+        ga.printDycripted();
     }
 }
